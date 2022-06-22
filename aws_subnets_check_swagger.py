@@ -6,7 +6,7 @@ app = Flask(__name__)
 CORS(app) 
 swagger = Swagger(app)
 
-@app.route('/')
+@app.route('/subnet_check')
 def func():
     """Example endpoint returning a devops data
     This is using docstrings for specifications.
